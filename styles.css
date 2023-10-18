@@ -1,0 +1,15 @@
+h1 {
+    color:blueviolet;
+    border-style: dashed;
+    border-color: black;
+}
+
+p {
+     text-align: center;
+     color: blue;
+     font-size: 26px;
+}
+
+body {
+    background-color: beige;
+}
