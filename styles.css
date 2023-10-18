@@ -2,14 +2,36 @@ h1 {
     color:blueviolet;
     border-style: dashed;
     border-color: black;
+    text-align: center;
+    width: 120px;
+    margin: auto;
+    background-color: aqua;
 }
 
 p {
      text-align: center;
      color: blue;
      font-size: 26px;
+     border-style: dotted;
+     border-color: pink;
+     border-radius: 10px;
 }
 
 body {
     background-color: beige;
+}
+
+a{
+    padding: 20px 40px;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    display: block;
+    width: 80px;
+    margin: 3px 0;
+    border-style: solid;
+    border-color: black;
 }
