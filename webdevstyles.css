@@ -1,0 +1,43 @@
+/*
+main color: #191308
+secondary: #322A26
+third: #454B66
+fourth: #677DB7
+fifth: #9CA3DB
+*/
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.webdevinfo{
+    border: 2px groove #322A26;
+    width: 800px;
+    margin: auto;
+    background-color: #322A26;
+}
+
+.webimage{
+    border: 3px groove black;
+    width: 450px;
+}
+
+.webcontent{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 60px;
+    justify-content: space-evenly;
+}
+
+.web1, .web2{
+    width: 450px;
+    margin: 5px 5px;
+    border: 4px groove #9CA3DB;
+    padding: 20px 20px;
+    background-color: #322A26;
+}
+
+a {
+    color: #677DB7;
+}

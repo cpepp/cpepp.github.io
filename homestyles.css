@@ -1,0 +1,69 @@
+/*
+main color: #191308
+secondary: #322A26
+third: #454B66
+fourth: #677DB7
+fifth: #9CA3DB
+*/
+
+
+.homeinfo {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.uniinfo {
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    width: 400px;
+}
+
+.mainimage {
+    display: block;
+    margin: auto;
+    height: 300px;
+    border: #191308 double 5px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.imagecaption {
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    padding-bottom: 10px;
+    color: #9CA3DB;
+}
+
+.imagecontent {
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.content {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    border: 2px groove #322A26;
+    background-color: #322A26;
+}
+
+.topics {
+    margin: 10px 30px;
+}
+
+.topicHeader {
+    border-bottom: 4px solid #9CA3DB;
+}
+
+.topicButton {
+    text-decoration: none;
+    color: white;
+}
+
+.topicButton li:hover{
+    background-color: #677DB7;
+}

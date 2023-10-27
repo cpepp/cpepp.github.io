@@ -1,98 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Mr.Pepper Website</title>
-        <link rel="icon" type="image/x-icon" href="favicon.ico">
-        <style>
-            h1 {
-                color:green;
-                background-color: rgb(170, 169, 195);
-                font-family: 'Arial';
-            }
 
-            h2 {
-                color:bisque;
-                border-color: darkblue;
-                border-bottom-style: dashed;
-                width: fit-content;
-            }
+<head>
+    <title>Mr.Pepper Website</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="homestyles.css">
+</head>
 
-            p {
-                 text-align: center;
-                 color: orangered;
-                 font-size: 20px;
-                 margin:50px 20px;
-                 padding-left: 50px;
-                 max-width: 250px;
-                 background-color: violet;
-            }
+<body>
+    <div class="navbar">
+        <a class="navbutton homebutton" href="index.html">Home</a>
+        <a class="navbutton" href="about.html">About</a>
+    </div>
+    <div class="hometext">
+        <h1>Mr. Pepper's Portfolio</h1>
+        <p class="homeinfo">I am an ET teacher at ASP.</p>
+    </div>
+    <div class="content">
+        <div class="topics">
+            <h3 class="topicHeader">Topics we will cover in ET class</h3>
+            <ul>
+                <li>Apple Suite Products</li>
+                <li>AI</li>
+                <a class="topicButton" href="webdev.html"> <li>Web Development</li> </a>
+                <li>Robotics</li>
+                <li>3D Modeling and Printing</li>
+                <li>Circuits</li>
+            </ul>
+        </div>
+        <div class="imagecontent">
+            <img class="mainimage" src="images/image.webp">
+            <p class="imagecaption">Image from Nightcafe</p>
+        </div>
+        <div class="imagecontent">
+            <img class="mainimage" src="images/asu.png">
+            <p class="imagecaption">ASU logo from ASU Website</p>
+            <p class="uniinfo">
+                I graduated from Arizona State University with a bachelor's degree in Software Engineering.
+            </p>
+        </div>
+    </div>
+    <div id="pacman">
+    </div>
+</body>
 
-            body {
-                background-color: grey;
-            }
-
-            ol {
-                background-color: aqua;
-                border-style: solid;
-                border-color: black;
-                border-width: 5px;
-                max-width: 150px;
-            }
-
-            li{
-                background-color: antiquewhite;
-                border-style: solid;
-                border-color: pink;
-                border-width: 4px;
-                max-width: 100px;
-                padding: 10px;
-                margin: 10px;
-                color: maroon;
-                font-size: 20px;
-            }
-
-            li::marker{
-                color:white;
-                font-size: 32px;
-            }
-
-            a {
-                padding: 10px 15px;
-                color: purple;
-                background-color: pink;
-                cursor: pointer;
-                font-size: 25px;
-                text-decoration: none;
-                font-style: bold;
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                border-radius: 5px;
-                display: block;
-                width: 80px;
-                margin: 3px 0;
-                border-style: double;
-                border-color: white;
-            }
-        </style>
-    </head>
-    <body>
-        <a class="btn" href="index.html">Home</a>
-        <a href="about.html">About</a>
-        
-        <h1>Home</h1>
-        <p>My name is Mr. Pepper</p>
-        <p>I am an ET teacher at ASP</p>
-        
-        <h2>Favorite Engineering Topics</h2>
-        <ol>
-            <li>
-                Programming
-            </li>
-            <li>
-                Robotics
-            </li>
-            <li>
-                3D Printing
-            </li>
-        </ol>
-    </body>
 </html>
